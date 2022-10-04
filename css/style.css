@@ -14,7 +14,8 @@ body{
 header{
     height: 500px;
     background-image:url(../img/jumbo.png);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .section1-header{
@@ -81,6 +82,9 @@ header .section2-header{
 main{
     margin: 70px auto;
 }
+.bg-main{
+    background-color: azure;
+}
 
 main .section1-main{
     display: flex;
@@ -105,6 +109,7 @@ main .section1-main{
 
 .section1-main .img{
     background-size: 100%;
+    background-repeat: no-repeat;
     width: 35%;
 }
 
@@ -132,6 +137,7 @@ main .section2-main{
 }
 .section2-main .img4{
     background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
 }
 
 .section2-main .text{
@@ -167,16 +173,14 @@ main .section2-main{
 
 /* Footer */
 footer{
-    height: 500px;
-    max-width: 2000px;
     background-color: black;
     color: white;
 }
 
 .container-footer{
+    max-width: 1200px;
     width: 75%;
-    height: 80%;
-    margin: auto;
+    margin: 0 auto;
     /* justify-items: center; */
     padding: 30px 100px 20px;
     display: flex;
@@ -237,7 +241,8 @@ footer{
 .end-footer{
     display: flex;
     justify-content: space-around;
-    margin: 20px auto;
+    margin: 20px auto 0;
+    padding-bottom: 50px;
 }
 
 .end-footer a{
