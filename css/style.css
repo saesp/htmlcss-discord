@@ -51,12 +51,14 @@ header .section2-header{
 .section2-header h1{
     margin-bottom: 30px;
     font-size: 40px;
+    color: white;
 }
 
 .section2-header p{
     margin: auto auto 40px;
     text-align: center;
     width: 500px;
+    color: white;
 }
 
 .section2-header .button{
@@ -84,17 +86,28 @@ main .section1-main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 30px auto;
+    margin: 50px auto 250px;
 }
 
 .section1-main .img-text{
-    height: 375px;
-    width: 35%;
-    margin: auto 10px;
+    height: 350px;
+    margin: auto 25px;
 }
+
+.section1-main .text{
+    padding-top: 30px;
+    width: 15%;
+}
+.section1-main .text h2{
+    font-size: 30px;
+    margin-bottom: 17.5px;
+}
+
 .section1-main .img{
     background-size: 100%;
+    width: 35%;
 }
+
 .section1-main .img1{
     background-image: url(../img/item1.svg);
 }
@@ -104,9 +117,7 @@ main .section1-main{
 .section1-main .img3{
     background-image: url(../img/item3.svg);
 }
-.section1-main .text{
-    background-color:aqua;
-}
+
 
 
 
@@ -128,15 +139,33 @@ main .section2-main{
 .section2-main .text{
     height: 100px;
     width: 50%;
-    background-color:aqua;
     margin-bottom: 20px;
+    text-align: center;
 }
+.section2-main .text h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
 .section2-main .end-text{
     height: 100px;
     width: 50%;
-    background-color:aqua;
+    text-align: center;
+    margin-bottom: 90px;
 }
-
+.section2-main .end-text h3{
+    font-size: 25px;
+    margin: 50px auto;
+    background-image: url(../img/stars.svg);
+    background-size: 400px;
+}
+.section2-main .end-text a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.491);
+    padding: 15px;
+    border-radius: 40%;
+}
 
 /* Footer */
 footer{
@@ -165,6 +194,12 @@ footer{
 
 .section1-footer h3{
     color: blue;
+    font-size: 22.5px;
+    margin-bottom: 15px;
+}
+.section1-footer img{
+    width: 20px;
+    vertical-align: middle;
 }
 
     /* section2 footer */
@@ -190,6 +225,7 @@ footer{
 
 .title-column{
     color: blue;
+    margin-bottom: 15px;
 }
 
 .column-footer a{
@@ -197,10 +233,20 @@ footer{
     color: white;
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 }
 
 .end-footer{
     display: flex;
     justify-content: space-around;
     margin: 20px auto;
+}
+
+.end-footer a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.491);
+    padding: 15px;
+    border-radius: 40%;
+    margin-left: 400px;
 }
